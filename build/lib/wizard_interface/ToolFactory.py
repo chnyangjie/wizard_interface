@@ -4,10 +4,10 @@ Created on Mar 30, 2016
 
 @author: yangjie
 '''
-from .CommonTool import (LogTool, MD5Tool, XMLDictTool,
-                         GzipperTool, CompareTool)
-from .InternetTool import HTTPOpener
-from .DataBaseTool import MYSQLDataBaseConnector
+from wizard_interface.CommonTool import (LogTool, MD5Tool, XMLDictTool,
+                                         GzipperTool, CompareTool)
+from wizard_interface.InternetTool import HTTPOpener
+from wizard_interface.DataBaseTool import MYSQLDataBaseConnector
 
 
 class ToolFactory():
